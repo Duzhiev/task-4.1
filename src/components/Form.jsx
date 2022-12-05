@@ -4,7 +4,6 @@ const Form = () => {
 
     const [text, setText] = useState('');
     const [blur, setBlur] = useState(false);
-    const [ok, setOk] = useState(false);
     const [sended, setSended] = useState(false);
 
     const handleSetText = (e) => {
